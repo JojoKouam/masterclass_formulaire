@@ -2,7 +2,7 @@
 $host = "localhost";// le serveur de MySql ici j'utilise phpmyadmin
 $dbname = "formulaire_db"; // Nom de ma base de donneé
 $username = "root"; // l'utilisateur de phpmyadmin
-$password = "Password123!"; // le password du phpmyadmin
+$password = ""; // le password du phpmyadmin
 
 try {!
     // Création d'une instance PDO pour se connecter à la base de données
