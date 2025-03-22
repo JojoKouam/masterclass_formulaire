@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Formulaire d'enregistrement</h2>
-    <form action="traitement.php" method="POST">
+    <form action="traitement.php" method="POST" enctype="multipart/form-data">
         <label for="nom">Nom :</label>
         <input type="text" id="nom" name="nom" required>
         <br><br>
